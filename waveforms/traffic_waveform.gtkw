@@ -1,0 +1,48 @@
+[*]
+[*] GTKWave Analyzer Save File
+[*] Project: FSM-Based Traffic Light Controller using Verilog HDL
+[*]
+[dumpfile] "waveforms/traffic_waveform.vcd"
+[savefile] "waveforms/traffic_waveform.gtkw"
+[timestart] 0
+[size] 1400 800
+[pos] -1 -1
+*-24.000000 700000 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] traffic_controller_tb.
+[treeopen] traffic_controller_tb.uut.
+@28
+traffic_controller_tb.clk
+traffic_controller_tb.reset
+@200
+-
+@28
+[color] 2
+traffic_controller_tb.uut.current_state[1:0]
+[color] 3
+traffic_controller_tb.uut.next_state[1:0]
+@22
+[color] 7
+traffic_controller_tb.uut.count[5:0]
+@200
+-
+-NORTH-SOUTH SIGNALS
+@28
+[color] 2
+traffic_controller_tb.ns_green
+[color] 3
+traffic_controller_tb.ns_yellow
+[color] 1
+traffic_controller_tb.ns_red
+@200
+-
+-EAST-WEST SIGNALS
+@28
+[color] 2
+traffic_controller_tb.ew_green
+[color] 3
+traffic_controller_tb.ew_yellow
+[color] 1
+traffic_controller_tb.ew_red
+[pattern_trace] 1
+[pattern_trace] 0
+

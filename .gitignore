@@ -1,0 +1,30 @@
+# ==============================================================================
+# Git Ignore Configuration: FSM Traffic Light Controller
+# ==============================================================================
+
+# Compiled simulation binaries and executables
+simulation/traffic_sim
+*.out
+*.vvp
+*.o
+
+# Synthesis and EDA Tool Logs / Artifacts
+*.log
+*.jou
+*.key
+*.pb
+*.str
+.Xil/
+xsim.dir/
+
+# Temporary and Editor Files
+*~
+*.swp
+*.swo
+.vscode/
+.idea/
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+
